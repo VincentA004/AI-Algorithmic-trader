@@ -1,0 +1,112 @@
+INFO:root:
+Model #1
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.01, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.689883, 0.68683, 0.683852, 0.680894, 0.678052, 0.675129, 0.672278, 0.669463, 0.666649, 0.663934, 0.661205, 0.658521, 0.655738, 0.653074, 0.650398, 0.647733, 0.645188, 0.642614, 0.640101, 0.637633, 0.635139, 0.632704, 0.630357, 0.627867, 0.625412, 0.622874, 0.62048, 0.618069, 0.615716, 0.613371, 0.611097, 0.608723, 0.606372, 0.604019, 0.601719, 0.599495, 0.597215, 0.594971, 0.592765, 0.590571, 0.588331, 0.586137, 0.58393])]), 'test': OrderedDict([('mlogloss', [0.693076, 0.693017, 0.692968, 0.69292, 0.69289, 0.692852, 0.692824, 0.692795, 0.69276, 0.692757, 0.69272, 0.69271, 0.692663, 0.692634, 0.692615, 0.692606, 0.692573, 0.692564, 0.692552, 0.692527, 0.692529, 0.692528, 0.692522, 0.692526, 0.692499, 0.6925, 0.692487, 0.692481, 0.692473, 0.692461, 0.692463, 0.69246, 0.692435, 0.692451, 0.692439, 0.692432, 0.692414, 0.692418, 0.692428, 0.692431, 0.692429, 0.692422, 0.692432])])}
+INFO:root:Precision = 0.5051788663020441
+INFO:root:Recall = 0.5046543478540041
+INFO:root:Accuracy = 0.5214835058636329
+
+INFO:root:
+Model #2
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.02, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.686647, 0.680699, 0.674863, 0.669263, 0.663622, 0.658127, 0.652679, 0.647524, 0.642311, 0.637386, 0.632486, 0.627425, 0.622427, 0.61777, 0.612781, 0.608205, 0.603518, 0.598923, 0.594298, 0.58983, 0.585286])]), 'test': OrderedDict([('mlogloss', [0.693035, 0.692948, 0.692894, 0.692863, 0.69281, 0.692809, 0.692714, 0.692697, 0.692665, 0.692599, 0.69257, 0.692554, 0.692556, 0.692552, 0.692546, 0.69257, 0.692599, 0.692585, 0.692623, 0.692613, 0.69263])])}
+INFO:root:Precision = 0.5054470868779699
+INFO:root:Recall = 0.5049589749056707
+INFO:root:Accuracy = 0.5208789381183334
+
+INFO:root:
+Model #3
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.03, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.68344, 0.674624, 0.666116, 0.658029, 0.649955, 0.642044, 0.634733, 0.627301, 0.619659, 0.612566, 0.605461, 0.598462, 0.59171, 0.584999, 0.578442, 0.572016])]), 'test': OrderedDict([('mlogloss', [0.693024, 0.692919, 0.692917, 0.69287, 0.692814, 0.692789, 0.692791, 0.692812, 0.692761, 0.692754, 0.692828, 0.692822, 0.692852, 0.692914, 0.692992, 0.69307])])}
+INFO:root:Precision = 0.5060719245888583
+INFO:root:Recall = 0.5055805907324404
+INFO:root:Accuracy = 0.5207845446413722
+
+INFO:root:
+Model #4
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.04, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.680262, 0.668772, 0.657756, 0.646846, 0.636714, 0.626829, 0.617053, 0.607983, 0.598693, 0.589696])]), 'test': OrderedDict([('mlogloss', [0.693043, 0.692971, 0.69294, 0.692879, 0.692919, 0.692926, 0.692989, 0.693029, 0.693082, 0.693194])])}
+INFO:root:Precision = 0.5054837432838851
+INFO:root:Recall = 0.5051106430538279
+INFO:root:Accuracy = 0.5192023301704027
+
+INFO:root:
+Model #5
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.05, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.677113, 0.663264, 0.649645, 0.636364, 0.6236, 0.611597, 0.599751, 0.58828])]), 'test': OrderedDict([('mlogloss', [0.693091, 0.693009, 0.693133, 0.693154, 0.693253, 0.693308, 0.693458, 0.693606])])}
+INFO:root:Precision = 0.5055487027759409
+INFO:root:Recall = 0.5052323090124994
+INFO:root:Accuracy = 0.5182921073568478
+
+INFO:root:
+Model #6
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.06, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.673993, 0.657413, 0.641304, 0.625659, 0.611583, 0.597202, 0.584031, 0.571326])]), 'test': OrderedDict([('mlogloss', [0.693169, 0.693165, 0.693399, 0.693598, 0.693768, 0.694038, 0.694226, 0.694471])])}
+INFO:root:Precision = 0.5044619430262253
+INFO:root:Recall = 0.5041916068187706
+INFO:root:Accuracy = 0.517604383453273
+
+INFO:root:
+Model #7
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.07, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.670901, 0.65207, 0.633932, 0.616718, 0.60011, 0.584531, 0.569528])]), 'test': OrderedDict([('mlogloss', [0.693277, 0.69339, 0.693546, 0.693869, 0.694071, 0.694458, 0.694703])])}
+INFO:root:Precision = 0.5048062683743544
+INFO:root:Recall = 0.5045427131894956
+INFO:root:Accuracy = 0.517395369325716
+
+INFO:root:
+Model #8
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.08, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.667838, 0.646519, 0.626173, 0.60769, 0.589066, 0.571655, 0.556296])]), 'test': OrderedDict([('mlogloss', [0.693414, 0.693636, 0.693991, 0.694351, 0.694732, 0.695194, 0.69567])])}
+INFO:root:Precision = 0.5046314534350287
+INFO:root:Recall = 0.5043803746113196
+INFO:root:Accuracy = 0.5171728704157359
+
+INFO:root:
+Model #9
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.09, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.664804, 0.640674, 0.618537, 0.597667, 0.577757, 0.558583, 0.540113])]), 'test': OrderedDict([('mlogloss', [0.693581, 0.693993, 0.694451, 0.695101, 0.695745, 0.69633, 0.69717])])}
+INFO:root:Precision = 0.5035868466766936
+INFO:root:Recall = 0.503410930364684
+INFO:root:Accuracy = 0.5156895443492019
+
+INFO:root:
+Model #10
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.1, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.661799, 0.635327, 0.610224, 0.587915, 0.56677, 0.547078, 0.527533])]), 'test': OrderedDict([('mlogloss', [0.693778, 0.694309, 0.69482, 0.695527, 0.696324, 0.697137, 0.69805])])}
+INFO:root:Precision = 0.504926115176741
+INFO:root:Recall = 0.5047015087716693
+INFO:root:Accuracy = 0.5166042620902311
+
+INFO:root:
+Model #11
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.2, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.633314, 0.58596, 0.544504, 0.509546, 0.480106, 0.453008, 0.428429])]), 'test': OrderedDict([('mlogloss', [0.697364, 0.701018, 0.704913, 0.708026, 0.711161, 0.714418, 0.717273])])}
+INFO:root:Precision = 0.50408631827287
+INFO:root:Recall = 0.5039523926552639
+INFO:root:Accuracy = 0.5144062425552763
+
+INFO:root:
+Model #12
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.3, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.607639, 0.546155, 0.494262, 0.454808, 0.421004, 0.390614, 0.371117])]), 'test': OrderedDict([('mlogloss', [0.70385, 0.713291, 0.721431, 0.72723, 0.732951, 0.738983, 0.743001])])}
+INFO:root:Precision = 0.5034942009337122
+INFO:root:Recall = 0.5034060429734841
+INFO:root:Accuracy = 0.5129049367788451
+
+INFO:root:
+Model #13
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.4, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.584688, 0.509999, 0.454441, 0.410023, 0.375611, 0.349961, 0.330553])]), 'test': OrderedDict([('mlogloss', [0.713149, 0.729358, 0.742093, 0.75181, 0.761962, 0.768868, 0.774502])])}
+INFO:root:Precision = 0.5042184718232575
+INFO:root:Recall = 0.5041474826104599
+INFO:root:Accuracy = 0.5124397117852504
+
+INFO:root:
+Model #14
+INFO:root:{'gpu_id': 0, 'gamma': 0, 'tree_method': 'gpu_hist', 'eta': 0.5, 'max_depth': 22, 'objective': 'multi:softprob', 'num_class': 2, 'sampling_method': 'gradient_based', 'subsample': 1}
+INFO:root:{'train': OrderedDict([('mlogloss', [0.564349, 0.482575, 0.427144, 0.380989, 0.35369, 0.318499, 0.295663])]), 'test': OrderedDict([('mlogloss', [0.725145, 0.747654, 0.765266, 0.781207, 0.791644, 0.802474, 0.810274])])}
+INFO:root:Precision = 0.5031190830354897
+INFO:root:Recall = 0.5030818654077306
+INFO:root:Accuracy = 0.510599038984506
+
