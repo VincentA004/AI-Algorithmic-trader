@@ -1,7 +1,7 @@
 # Stock_Analyzer
 
 ## Overview:
-This project takes raw stock data sourced from the S&P 500 index and uses a machine learning algorithm known as XGBoost to predict the future price of the S&P 500 index. 
+This program takes historical S&P 500 stock data and feeds it into a machine learning algorithm known as XGBoost, so the program can predict and graph future prices of the S&P 500 index  
 
  
 
